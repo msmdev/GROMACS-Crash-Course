@@ -66,6 +66,19 @@ Also, if you want to get the most out of our hardware, i.e., when using a superc
 it will be necessary to perform a optimized installation, 
 taking into account specific features of the respective hardware and OS.
 
+### How to get access to GROMACS after the installation
+GROMACS installs the script GMXRC in the bin subdirectory of the installation directory (e.g. /usr/local/gromacs/bin/GMXRC), which you can source from your shell to tell the system were to find the GROMACS executables:
+
+``` bash source /your/installation/prefix/here/bin/GMXRC ```.
+
+It will detect what kind of shell you are running and set up your environment for using GROMACS. 
+You should arrange for your login scripts to do this automatically:
+1. Go to your home directory via ``` bash cd ~ ```,
+2. Open the file .bashrc with an editor, e.g., with emacs via ``` emacs .bashrc ```,
+3. Add ``` source /your/installation/prefix/here/bin/GMXRC ``` to the end of the file and save it (e.g., via "Ctrl"+"X"+"S"),
+4. Open a new terminal to activate the changes (i.e., source GMXRC).
+Now test, if you can easily execute GROMACS via executing ``` gmx -version ```.
+
 ## 3. Using GROMACS
 Diving into GROMACS for the first time, it is sensible to start with a very basic and well-tried tutorial like
 
