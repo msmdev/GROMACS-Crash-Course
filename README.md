@@ -32,7 +32,12 @@ and perform the installation following the instructions on
 http://manual.gromacs.org/documentation/2018.8/install-guide/index.html .
 
 You should try the "quick and dirty" installation first, but if you run into trouble in doing so,
-you might need to try the more elaborated instructions.
+you might need to try the more elaborated instructions. Please read on before actually performing the installation procedure.
+
+GROMACS is installed in the directory to which CMAKE_INSTALL_PREFIX points.
+It may not be the source directory or the build directory.
+Performing the "quick-and-dirty" installation under Ubuntu it will point be /usr/local/gromacs/share/gromacs by default.
+You require write permissions to this directory. Thus, without super-user privileges, CMAKE_INSTALL_PREFIX will have to be within your home directory. Even if you do have super-user privileges, you should use them only for the installation phase, and never for configuring, building, or running GROMACS!
 
 If, during the build process with CMake, while executing
 
