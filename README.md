@@ -15,7 +15,15 @@ Further, you will need internet access.
 To install and use GROMACS a basic knowledge regarding the use of the Unix/Linux shell is mandatory.
 Thus, you will start with a "Software Carpentry" Unix shell lesson via the following link:
 
-http://swcarpentry.github.io/shell-novice/
+http://swcarpentry.github.io/shell-novice/ .
+
+Before doing so, please update your system via
+
+``` sudo apt-get update && sudo apt-get upgrade ```
+
+and install my favorite text editor emacs via
+
+``` sudo apt-get install emacs ```.
 
 ## 2. Install GROMACS
 You will install GROMACS 2018 (for documentation see: http://manual.gromacs.org/documentation/2018.8/index.html).
