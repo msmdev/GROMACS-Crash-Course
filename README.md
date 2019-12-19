@@ -29,6 +29,8 @@ You can find a "cheat sheet" (aka reference card) concerning Emacs usage here
 
 https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf .
 
+### Shell Variables
+
 After finshing the Unix shell lesson you might want to take a look on Shell Variables
 
 https://carpentries-incubator.github.io/shell-extras/08-environment-variables/index.html , 
