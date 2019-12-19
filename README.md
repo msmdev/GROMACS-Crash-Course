@@ -25,6 +25,10 @@ and install my favorite text editor emacs via
 
 ``` sudo apt-get install emacs ```.
 
+You can find a "cheat sheet" (aka reference card) concerning Emacs usage here
+
+https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf .
+
 ## 2. Install GROMACS
 You will install GROMACS 2018 (for documentation see: http://manual.gromacs.org/documentation/2018.8/index.html).
 Before doing so, you should update our system via
