@@ -29,6 +29,12 @@ You can find a "cheat sheet" (aka reference card) concerning Emacs usage here
 
 https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf .
 
+After finshing the Unix shell lesson you might want to take a look on Shell Variables
+
+https://carpentries-incubator.github.io/shell-extras/08-environment-variables/index.html , 
+
+since the usage of GROMACS requires some basic knowledge of these and even has its own variables.
+
 ## 2. Install GROMACS
 You will install GROMACS 2018 (for documentation see: http://manual.gromacs.org/documentation/2018.8/index.html).
 Before doing so, you should update our system via
@@ -116,3 +122,12 @@ enabling the execution of highly parallel calculations on hunreds or thousands o
 
 To do so, the first thing you need is access to such a supercomputer, 
 i.e. the Lichtenberg Supercomputer (HHLR) of the TU Darmstadt.
+
+Secondly, you need a way to actually access the remote computer, since you won't drive to Darmstadt and log into the supercomputer locally.
+A simple and common (often even the only) way to do so is via ssh (secure shell).
+Following the link
+
+https://carpentries-incubator.github.io/shell-extras/02-ssh/index.html
+
+you will see how to use ssh and also scp (secure copy).
+
