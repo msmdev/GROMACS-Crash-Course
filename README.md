@@ -61,12 +61,11 @@ You require write permissions to this directory. Thus, without super-user privil
 
 If, during the build process with CMake, while executing
 
-``` bash cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON ```, 
+``` cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON ```, 
 
 you run into an error like
 
-``` bash
-CMake Error at CMakeLists.txt:41 (project):
+``` CMake Error at CMakeLists.txt:41 (project):
   No CMAKE_CXX_COMPILER could be found.
 
   Tell CMake where to find the compiler by setting either the environment
@@ -80,7 +79,7 @@ CMake Error at CMakeLists.txt:41 (project):
 you are missing the C++ compiler.
 This can be solved by installing essential compilers and related packages via
 
-``` bash sudo apt-get install build-essential ```
+``` sudo apt-get install build-essential ```
 
 Also, if you want to get the most out of our hardware, i.e., when using a supercomputer,
 it will be necessary to perform a optimized installation, 
@@ -89,7 +88,7 @@ taking into account specific features of the respective hardware and OS.
 ### How to get access to GROMACS after the installation
 GROMACS installs the script GMXRC in the bin subdirectory of the installation directory (e.g. /usr/local/gromacs/bin/GMXRC), which you can source from your shell to tell the system were to find the GROMACS executables:
 
-``` bash source /your/installation/prefix/here/bin/GMXRC ```.
+``` source /your/installation/prefix/here/bin/GMXRC ```.
 
 It will detect what kind of shell you are running and set up your environment for using GROMACS. 
 You should arrange for your login scripts to do this automatically:
